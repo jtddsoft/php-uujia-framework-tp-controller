@@ -8,14 +8,18 @@
             "email": "jtddsoft@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "uujia/pet-base": "dev-master",
+        "topthink/framework": "dev-master"
     },
     "require-dev": {
+
     },
     "autoload": {
         "psr-4": {
-            "uujia\\framework\\tp\\controller": "src"
+            "uujia\\framework\\tp\\controller\\": "src"
         }
     }
 }
