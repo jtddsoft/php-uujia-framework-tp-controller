@@ -1,0 +1,21 @@
+{
+    "name": "uujia/pet-tp-controller",
+    "description": "simple framework tp controller",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jtddsoft",
+            "email": "jtddsoft@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "uujia\\framework\\tp\\controller": "src"
+        }
+    }
+}
